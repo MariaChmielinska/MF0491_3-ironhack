@@ -12,6 +12,8 @@ function loveDifference(age1, age2) {
         ageDifference = age1 - age2;
     }else if(age2 >= age1){
         ageDifference = age2 - age1;
+
+        
     }
     return ageDifference
 }
