@@ -15,8 +15,8 @@ button.addEventListener("click",send);
         document.querySelector("#last-message").textContent = message;
         console.log("last message shows", lastMessage);
 
-        message = "";
-
+        document.querySelector("#message").value = "";
+        console.log("dissapar: ", message);
 
     }
 
