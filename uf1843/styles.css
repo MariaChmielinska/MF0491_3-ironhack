@@ -16,7 +16,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     padding: 32px;
-    background-color: #d5d5df;
+    background-color: #6161de;
     color: #fff;
     border-bottom: 4px solid #fdb347;
 }
@@ -24,6 +24,12 @@ body {
 .gallery {
     margin: 0 auto;
     padding: 20px 10px;
+    container: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+
 }
 
 .gallery img {
@@ -32,4 +38,8 @@ body {
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+@media(min-width 768px){
+    
 }
